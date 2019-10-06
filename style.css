@@ -1,0 +1,38 @@
+
+
+body {
+    font-size: 23px;
+    background: wheat;
+}
+
+
+#content {
+    max-width: 80%;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    opacity: 0.98;
+}
+
+.firstpannel {
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+
+}
+
+
+.secondpannel {
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+
+}
+
+
