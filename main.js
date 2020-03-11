@@ -36,10 +36,10 @@ document.getElementById("attempts").innerHTML = attempts;
 
 
 if (userGuess > computerGuess) {
- document.getElementById("textOut").innerHTML = "the rent is too damn high";
+ document.getElementById("textOut").innerHTML = "Too high of a number!";
  document.getElementById('inputBox').value="";
 } else if (userGuess < computerGuess) {
- document.getElementById("textOut").innerHTML = "too cold too low";
+ document.getElementById("textOut").innerHTML = "The number is too low!";
  document.getElementById('inputBox').value="";
 } else { 
  document.getElementById("textOut").innerHTML = "correct!"; 
