@@ -2,7 +2,7 @@
 h1{
     font-weight: bold;
     text-align: center;
-    text-shadow: lightslategray;
+    
 }
 body {
     font-size: 23px;
@@ -42,5 +42,7 @@ body {
 
 button {
     font-size: x-large;
+   padding: 10px;
+ 
 }
 
