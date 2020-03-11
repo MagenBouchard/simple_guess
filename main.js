@@ -42,7 +42,7 @@ if (userGuess > computerGuess) {
  document.getElementById("textOut").innerHTML = "The number is too low!";
  document.getElementById('inputBox').value="";
 } else { 
- document.getElementById("textOut").innerHTML = "correct!"; 
+ document.getElementById("textOut").innerHTML = "You are Correct!"; 
 }
 }
 
