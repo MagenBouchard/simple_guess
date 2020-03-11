@@ -4,10 +4,8 @@
 ## This simple guess game uses JavaScript, HTML, and CSS.
 
 
-This game first determines the random number by using Math.random(). The function to do so was put in the body. Each time body was rendered the function went to get a number the computer would hold.  
+This game first determines the random number by using Math.random(). The player has ten attempts to guess the correct number. 
 
-// then a variable for the user input to be stored created. 
+Each guess logic checks the number the user inputs agaisnt the random number previously determined. Each check provides feedback to the user. The user input and the computer's number is compated and if the user's number is too high text is dynnamically added to the page to tell the user the number is too high. If the number less then that feedback is provided dynamically as well.
 
-// next the user is told on the page how many attempts they had.
-
-// the logic which compares the user input with the computer number is next. checks the parameters and if they are met then they next portion of the function is carried out. 
+If the user guess and the previously determined number is equal then the text dynamically added to the page lets the user know. 
