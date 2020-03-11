@@ -46,3 +46,11 @@ button {
  
 }
 
+#inputBox{
+    border-style: solid;
+    border-width: 2px;
+    width: 3em;
+    font-size: 48px;
+
+}
+
