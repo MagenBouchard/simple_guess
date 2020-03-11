@@ -1,6 +1,9 @@
 # simple_guess
 
 
+##This simple guess game uses JavaScript, HTML, and CSS.
+
+
 // first it was work to get the document to load a random number each time. The function to do so was put in the body. so each time body was rendered the function went to get a number the computer would hold.  
 
 // then a variable for the user input to be stored created. 
