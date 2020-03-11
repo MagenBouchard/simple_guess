@@ -33,7 +33,9 @@ function compareGuess() {
 
   //compares the number the computer has guessed to the user's input
   if (userGuess > computerGuess) {
+      // if the users guess is larger than the computers the message below will be dynamically added to the page. 
     document.getElementById("textOut").innerHTML = "Too high of a number!";
+    //clears the input box for the user's next turn.
     document.getElementById("inputBox").value = "";
   } else if (userGuess < computerGuess) {
     document.getElementById("textOut").innerHTML = "The number is too low!";
