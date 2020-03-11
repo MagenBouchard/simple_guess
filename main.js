@@ -30,6 +30,8 @@ function compareGuess() {
   //displays the number of attempts to the page
   document.getElementById("attempts").innerHTML = attempts;
 
+
+  //compares the number the computer has guessed to the user's input
   if (userGuess > computerGuess) {
     document.getElementById("textOut").innerHTML = "Too high of a number!";
     document.getElementById("inputBox").value = "";
