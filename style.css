@@ -1,5 +1,7 @@
 
-
+h1{
+    font-weight: bold;
+}
 body {
     font-size: 23px;
     background: wheat;
